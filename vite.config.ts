@@ -5,9 +5,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: 'src/manifest.json'
-    }
+    },
+    minify: false,
+    sourcemap: true
   },
-  plugins: [
-    chromeExtension()
-  ]
+  plugins: [chromeExtension()]
 })
