@@ -1,0 +1,23 @@
+{
+  "name": "BMark",
+  "description": "Bookmarks of the future for everyone!!",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.ts"
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "bookmarks"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "32": "/images/icon32.png"
+    }
+  },
+  "icons": {
+    "32": "/images/icon32.png"
+  }
+}
