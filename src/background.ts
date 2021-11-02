@@ -1,7 +1,5 @@
 // setup
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({ tag: {}, page: {} })
-})
+chrome.runtime.onInstalled.addListener(() => {})
 
 // context menu
 chrome.contextMenus.create({
